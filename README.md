@@ -359,3 +359,14 @@ JAX-RS: Java API for RESTful Web Services
 
 
 ## SOLID
+
+* KISS: Keep It Simple and Stupid
+* SOLID:
+ * Single Responsibility Principle (SRP): each module/class has only one responsibility
+ * Open Close Principle (OCP): Open for extension, closed for change
+ * Liskov Substitution Principle (LSP): replacing a class with another one derived from it should not change behaviour (if it does do not use inheritance)
+ * Interface Segregation Principle (ISP): only depend on interfaces you actually use
+ * Dependency Inversion Principle (DIP): interfaces over concrete classes
+* DRY: Don't Repeat Yourself
+
+
