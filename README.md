@@ -294,7 +294,68 @@ Cascade type:
 
 Skip serialization / exclude from transfer with @Transient (or transient)
 
+### Querying
+
+* JPQL (Java Persistence Query Language)
+* Criteria API
 
 ## REST
+
+Layers of an information system:
+* Presentation layer: communication interface to external entities
+* Application logic layer: operations requested through presentaiton layer
+* Resource management layer: deals with data sources
+
+Distributed system types:
+* Request/response or call and return
+  * Call oriented
+  * Synchronous in nature
+  * Input parameters -> output values
+  * Focus on invoked opetations with in/out values
+* Message passing or document passing
+  * Data oriented
+  * Asynchronous
+  * Messages constructed and sent
+  * Focus on message construction and dispatching
+  * No focus on what happends after dispatching
+
+Architectural style:
+* Client/Server
+* Component-based
+* Domain driven design
+* Layered
+* Message-bus
+* N-Tier / 3-Tier
+* for call-based systems
+  * Object-oriented: stateful communication with object instances
+  * Resource-oriented: stateless requests / operations for resource management
+  * Service-oriented: stateless communication via self-described service endpoints
+
+Webservice: A web service is a software system designed to support interoperable machine-to-machine interaction over a network (with an interface describe in a machine-processable format).
+* SOAP (former Simple Object Access Protocol) / WSDL (Web Service Description Language)
+  * Interface through WSDL
+  * Message exchange using SOAP
+  * Using UDDI (Universal Description Discovery and Integration)
+* REST (Representational State Transfer)
+  * Resource identitief by URI's
+  * Manipulations through HTTP operations
+  * Set of architectural principles
+  * Six constraints
+     * Uniform interface: through HTTP methods
+     * Stateless: does not hold client state
+     * Cacheable: responses are cacheable
+     * Cient-Server: disconnected system
+     * Layered: client can't assume direct connection
+     * Code on demand (optional): execute logic on client
+  * Standard HTTP error codes
+
+SOA (Service Oriented Architectures)
+* Abstract pattern for webservices
+* Loosely-coupled architecture
+* Shared, reusable services
+* Publish, Find, Bind
+
+JAX-RS: Java API for RESTful Web Services
+
 
 ## SOLID
