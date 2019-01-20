@@ -4,8 +4,8 @@
 
 ### Traditional methodologies
 
-Waterfall: Requirements, Design, Implementation, Verification, Maintenance
-Unified Process: Inception, Elaboration, Construction, Transition
+* Waterfall: Requirements, Design, Implementation, Verification, Maintenance
+* Unified Process: Inception, Elaboration, Construction, Transition
 
 ### Agile Manifesto
 
@@ -34,11 +34,11 @@ Used in: Extreme programming (XP), SCRUM, DSDM
 Developing software:
 * 4 variables (controlled by managers, customers): Time, Resource, Quality (controlled by devs only), Scope
 * 6 values:
- * Communication: work together as a team, face-to-face
- * Simplicity: small steps, maximize value
- * Feedback: commit to delivery, demo work, adapt process
- * Courage: tell the truth, adapt to change, don't document excuses for failure
- * Respect: value team members, everyone contributes, dev-mgmt acceptance
+  * Communication: work together as a team, face-to-face
+  * Simplicity: small steps, maximize value
+  * Feedback: commit to delivery, demo work, adapt process
+  * Courage: tell the truth, adapt to change, don't document excuses for failure
+  * Respect: value team members, everyone contributes, dev-mgmt acceptance
 
 #### Principles
 
@@ -113,14 +113,14 @@ Process control theory: (noice catergory indicates process)
 
 * Sprint: 2-4 week iteration
 * Sprint planning:
- * Sprint prioritization: analyze/eval product backlog, select sprint goal
- * Spring planning: design, create sprint backlog, estimate
+  * Sprint prioritization: analyze/eval product backlog, select sprint goal
+  * Spring planning: design, create sprint backlog, estimate
 * Sprint review: demo work, informal (no slides, 2-hour prep time rule), whole team, invite the world
 * Sprint retrospective: 15-30mins, after every sprint, whole team, what is and what is not working (what to start/stop/vontinue doing)
 * Daily scrum meeting: Daily, 15min, stand-up, not for problem solving, whole world invited - only scrum team talks, commitments to peers but not statuses for the scrum master
- * What did you do yesterday?
- * What will you do today?
- * Is anything in your way?
+  * What did you do yesterday?
+  * What will you do today?
+  * Is anything in your way?
 
 ### Artifacts
 
@@ -139,14 +139,14 @@ Definition of Done (DoD):
 * Agreed by the scrum team
 * Evolves sprint by sprint
 * e.g.:
- * Unit tests pass, sufficient negative tests, coverage
- * Code is reviewed
- * Coding standards are met
- * Continuous integration implemented
- * Code is refactored
- * UAT tests pass
- * Non-functional tests pass
- * Necessary documentaiton is completed
+  * Unit tests pass, sufficient negative tests, coverage
+  * Code is reviewed
+  * Coding standards are met
+  * Continuous integration implemented
+  * Code is refactored
+  * UAT tests pass
+  * Non-functional tests pass
+  * Necessary documentaiton is completed
 
 on sprint level: all stories met DoD, product increment was accepted by product owner
 
